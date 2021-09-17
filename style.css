@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    user-select: none;
+}
+.screen{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.box{
+    width: 80%;
+    height: 90%;
+    background-color: tomato;
+    border-radius: 20px;
+}
+.display{
+    width: 100%;
+    height: 20%;
+    background-color: crimson;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: inset 2px 2px 16px black;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
+.history, .input{
+    text-align: right;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid burlywood; */
+    padding: 10px;
+    border-radius: 20px;
+    color: azure;
+}
+.input{
+    font-size: 29px;
+}
+.history{
+    font-size: 17px;
+}
+.btnBox{
+    width: 100%;
+    height: 80%;
+    background-color: aquamarine;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset 2px -2px 16px black;
+    display: flex;
+    flex-direction: column;
+}
+.box1, .box2, .box3, .box4{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.btn{
+    width: 25%;
+    height: 100%;
+    background-color: blanchedalmond;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 16px black;
+    font-size: large;
+}
+.op{
+    font-size: 30px;
+    font-weight: 400;
+}
